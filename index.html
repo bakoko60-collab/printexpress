@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PrintExpress — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+<script src="script.js" defer></script>
+</head>
+<body>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1>PrintExpress</h1>
+      <p>Printing • Design • Signs • Branding</p>
+      <a href="#portfolio" class="cta-btn">Explore Services</a>
+    </div>
+  </header>
+
+  <!-- PORTFOLIO -->
+  <section id="portfolio" class="portfolio">
+    <div class="folder-card" data-folder="printing">
+      <img src="images/printing/printing.jpg" alt="Printing Preview">
+      <h2>Printing</h2>
+      <button class="view-btn">View More</button>
+    </div>
+
+    <div class="folder-card" data-folder="design">
+      <img src="images/design/design.jpg" alt="Design Preview">
+      <h2>Design</h2>
+      <button class="view-btn">View More</button>
+    </div>
+
+    <div class="folder-card" data-folder="signs">
+      <img src="images/signs/signs.jpg" alt="Signs Preview">
+      <h2>Signs</h2>
+      <button class="view-btn">View More</button>
+    </div>
+
+    <div class="folder-card" data-folder="branding">
+      <img src="images/branding/branding.jpg" alt="Branding Preview">
+      <h2>Branding</h2>
+      <button class="view-btn">View More</button>
+    </div>
+  </section>
+
+  <!-- LIGHTBOX -->
+  <div id="lightbox" class="lightbox">
+    <span id="closeBtn">&times;</span>
+    <div class="lightbox-content" id="lightbox-content"></div>
+  </div>
+<!-- FULL IMAGE VIEW -->
+<div id="fullImageView" class="full-image-view">
+  <span id="closeFullView">&times;</span>
+  <img id="fullImage" src="" alt="Full View">
+</div>
+
+  <footer class="site-footer">
+    <p>Fast Delivery — Call <strong>516 738 9056</strong></p>
+    <p>Website created by <span class="glow">PrintExpress</span></p>
+  <!-- Floating Contact Buttons -->
+<div class="contact-buttons">
+  <a href="tel:+15167389056" class="contact-btn call-btn" title="Call Now">
+    📞
+  </a>
+  <a href="https://wa.me/15167389056?text=Hello%20PrintExpress%2C%20I%27m%20interested%20in%20your%20printing%20services." 
+     class="contact-btn whatsapp-btn" title="Chat on WhatsApp" target="_blank">
+    💬
+  </a>
+</div>
+</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
